@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Thomson - Software Engineer & CS Student</title>
-    <meta name="description" content="Software Engineering student at Georgia Tech with experience at UKG, Paperstreet, and expertise in full-stack development, DevOps, and machine learning.">
+    <meta name="description" content="Software Engineering student at Georgia Tech with experience at Itential, Paperstreet, and expertise in full-stack development, DevOps, and machine learning.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <div id="header-placeholder"></div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="true" aria-label="Toggle dark mode">
+        <span class="theme-toggle-track" aria-hidden="true">
+            <span class="theme-toggle-icon theme-toggle-icon--moon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M21.64 13.65A9 9 0 0 1 10.35 2.36a1 1 0 0 0-1.2-1.2A11 11 0 1 0 22.84 14.85a1 1 0 0 0-1.2-1.2ZM12 21a9 9 0 0 1-1.47-17.88A11 11 0 0 0 20.88 13.47 9.04 9.04 0 0 1 12 21Z"/>
+                </svg>
+            </span>
+            <span class="theme-toggle-icon theme-toggle-icon--sun" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M6.76 4.84 5.35 3.43 3.93 4.85l1.41 1.41 1.42-1.42ZM1 13h3v-2H1v2Zm10 10h2v-3h-2v3Zm9-10h3v-2h-3v2ZM18.65 20.57l1.41-1.41-1.41-1.41-1.41 1.41 1.41 1.41ZM20.07 4.85l-1.42-1.42-1.41 1.41 1.41 1.42 1.42-1.41ZM11 4V1h2v3h-2Zm1 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm0 10a4 4 0 1 1 0-8 4 4 0 0 1 0 8ZM4.84 17.24l-1.41 1.41 1.42 1.42 1.41-1.41-1.42-1.42Z"/>
+                </svg>
+            </span>
+            <span class="theme-toggle-thumb" aria-hidden="true"></span>
+        </span>
+    </button>
 
     <section class="hero">
         <div class="container">
@@ -20,7 +35,7 @@
                 </div>
                 <h1 class="hero-title">Daniel Thomson</h1>
                 <p class="hero-description">
-                    Computer Science student at <strong>Georgia Tech</strong>. I build software that solves problems I actually have - like <a href="https://redirx.dev" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: 600;">RedirX</a>, an SEO redirect tool I created for managing URL migrations. Currently working as a Software Engineering Intern at <strong>UKG</strong>.
+                    Computer Science student at <strong>Georgia Tech</strong>. I build software that solves problems I actually have - like <a href="https://redirx.dev" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: 600;">RedirX</a>, an SEO redirect tool I created for managing URL migrations. Currently working as a Software Engineering Intern at <strong>Itential</strong>.
                 </p>
                 <div class="hero-actions">
                     <a href="#projects" class="btn btn-secondary">See Projects</a>
@@ -28,19 +43,14 @@
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
                 <div class="hero-social">
-                    <a href="https://github.com/itsdylon" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/DanielThomsonSWE" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/dylons/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/danielswe/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                    <a href="https://x.com/dylon" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
                         </svg>
                     </a>
                 </div>
@@ -53,35 +63,33 @@
             <h2 class="text-center mb-xl">Professional Experience</h2>
             <div class="experience-grid">
                 <div class="experience-item">
-                    <div class="experience-date">May 2025 - Present</div>
-                    <div class="experience-content">
-                        <h4>UKG</h4>
-                        <h3>Software Engineering Intern</h3>
-                        <p>Developing a tax filing microservice in C# on the .NET Framework for a global payment infrastructure platform. Contributing to backend system design with Kubernetes, deploying containers to GCP for scalable production usage. Supporting CI/CD pipelines with Docker and GitHub Actions, improving release stability and deployment efficiency.</p>
+                    <div class="experience-date">
+                        <div>Aug 2025 - Present</div>
+                        <img class="experience-logo experience-logo--centered" src="images/Itential-Icon.png" alt="Itential logo" width="96" height="96" loading="lazy">
+                    </div>
+                    <div class="experience-body">
+                        <div class="experience-content">
+                            <h4>
+                                <a class="experience-company-link" href="https://www.itential.com/" target="_blank" rel="noopener noreferrer">Itential</a>
+                            </h4>
+                            <h3>Software Engineering Intern</h3>
+                            <p>Developing a tax filing microservice in C# on the .NET Framework for a global payment infrastructure platform. Contributing to backend system design with Kubernetes, deploying containers to GCP for scalable production usage. Supporting CI/CD pipelines with Docker and GitHub Actions, improving release stability and deployment efficiency.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="experience-item">
-                    <div class="experience-date">Aug 2024 - May 2025</div>
-                    <div class="experience-content">
-                        <h4>Paperstreet Web Design</h4>
-                        <h3>Web Development Intern</h3>
-                        <p>Collaborating with senior developers to design and implement client websites. Developing and maintaining web pages using WordPress and PHP. Optimizing website content and structure for improved search engine rankings (SEO).</p>
+                    <div class="experience-date">
+                        <div>Apr 2025 - Aug 2025</div>
+                        <img class="experience-logo" src="images/paperstreet_logo.jpeg" alt="Paperstreet Web Design logo" width="96" height="96" loading="lazy">
                     </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-date">Jan 2025 - Feb 2025</div>
-                    <div class="experience-content">
-                        <h4>Mercor (Contract)</h4>
-                        <h3>Python Code Analyst</h3>
-                        <p>Evaluated AI-generated Python code for accuracy, efficiency, and adherence to best practices. Provided structured feedback to refine AI-generated code and improve model reliability. Identified and resolved inconsistencies in AI-generated code using software engineering principles.</p>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="experience-date">Jun 2022 - Aug 2022</div>
-                    <div class="experience-content">
-                        <h4>Stockbridge Capital Group</h4>
-                        <h3>Cyber Security Intern</h3>
-                        <p>Developed a downtime detector application for all firm-wide software. Audited security compliance of all third-party SAAS applications in preparation for SEC review. Found network vulnerabilities and deployed patches.</p>
+                    <div class="experience-body">
+                        <div class="experience-content">
+                            <h4>
+                                <a class="experience-company-link" href="https://www.paperstreet.com/" target="_blank" rel="noopener noreferrer">Paperstreet Web Design</a>
+                            </h4>
+                            <h3>Web Development Intern</h3>
+                            <p>Collaborating with senior developers to design and implement client websites. Developing and maintaining web pages using WordPress and PHP. Optimizing website content and structure for improved search engine rankings (SEO).</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,36 +119,36 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/wondersyncscreenshot.png" alt="WonderSync Travel App" class="project-image">
+                    <img src="images/wondersyncscreenshot.png" alt="FitJacket AI Workout Planner" class="project-image">
                     <div class="project-content">
-                        <h3 class="project-title">WonderSync - Collaborative Travel App</h3>
-                        <p class="project-description">Team project for a travel planning app. Worked on the Android frontend and Firebase integration. Focused on making group trip coordination less of a headache.</p>
+                        <h3 class="project-title">FitJacket - AI Workout Planner</h3>
+                        <p class="project-description">Built a full-stack Django app that delivers AI-driven workout plans with real-time tracking using the Google Fit API. Integrated Gemini 2.0 Flash for a conversational fitness assistant, and implemented REST APIs for auth, workout logging, and leaderboards.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Android Studio</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">Gradle</span>
-                            <span class="tech-tag">Jira</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Google Fit API</span>
+                            <span class="tech-tag">Gemini</span>
+                            <span class="tech-tag">REST APIs</span>
                         </div>
                         <div class="project-links">
-                            <a href="wondersync.html" class="btn btn-primary">View Details</a>
-                            <a href="https://github.com/itsdylon/wondersync" class="btn btn-ghost" target="_blank">GitHub</a>
+                            <a href="https://github.com/DanielThomsonSWE" class="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/capstonescreenshot.png" alt="Distributed ML Research" class="project-image">
+                    <img src="images/capstonescreenshot.png" alt="GT Campus Map interactive app" class="project-image">
                     <div class="project-content">
-                        <h3 class="project-title">Distributed Machine Learning Research</h3>
-                        <p class="project-description">Research project comparing how machine learning models perform when trained across distributed systems versus centralized training. Used PyTorch and TensorFlow.</p>
+                        <h3 class="project-title">GT Campus Map - Interactive Map + AI Recommendations</h3>
+                        <p class="project-description">Developed an interactive Georgia Tech campus map using the Google Maps API, with a chatbot interface for AI-driven, location-based recommendations.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">PyTorch</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Federated Learning</span>
+                            <span class="tech-tag">Google Maps API</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web App</span>
+                            <span class="tech-tag">Chatbot</span>
                         </div>
                         <div class="project-links">
-                            <a href="capstone.html" class="btn btn-primary">Research Details</a>
+                            <a href="https://github.com/DanielThomsonSWE" class="btn btn-primary" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +156,7 @@
         </div>
     </section>
 
-    <section id="skills" class="section" style="background-color: var(--color-surface);">
+    <section id="skills" class="section" style="background-color: var(--color-background);">
         <div class="container">
             <h2 class="text-center mb-xl">Technical Skills</h2>
             <div class="skills-grid">
@@ -182,13 +190,12 @@
                 <div class="skill-category">
                     <h3>Cloud & DevOps</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Google Cloud Platform</span>
+                        <span class="skill-item">Amazon Web Services</span>
                         <span class="skill-item">Docker</span>
                         <span class="skill-item">Kubernetes</span>
                         <span class="skill-item">GitHub Actions</span>
                         <span class="skill-item">Git</span>
                         <span class="skill-item">Jira</span>
-                        <span class="skill-item">Gradle</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -198,7 +205,6 @@
                         <span class="skill-item">MySQL</span>
                         <span class="skill-item">Firebase</span>
                         <span class="skill-item">Supabase</span>
-                        <span class="skill-item">Android Studio</span>
                         <span class="skill-item">WordPress</span>
                     </div>
                 </div>
@@ -211,14 +217,14 @@
             <div class="about-content">
                 <h2 class="mb-xl">About Me</h2>
                 <p>Computer Science student at Georgia Tech studying software engineering, cloud technologies, and machine learning. I've worked on everything from enterprise backend systems to full-stack web applications.</p>
-                <p>Currently working as a Software Engineering Intern at UKG, building tax filing infrastructure with .NET and deploying to Google Cloud. I like solving technical problems and working with teams that ship real products.</p>
+                <p>Currently working as a Software Engineering Intern at Itential, building tax filing infrastructure with .NET and deploying to Google Cloud. I like solving technical problems and working with teams that ship real products.</p>
                 <div class="education-card">
                     <h3>Georgia Institute of Technology</h3>
                     <p><strong>Bachelor of Computer Science</strong></p>
-                    <p>Expected Graduation: May 2026</p>
-                    <p class="gpa">GPA: 3.8</p>
+                    <p>Expected Graduation: May 2027</p>
+                    <p class="gpa">GPA: 3.6</p>
                 </div>
-                <p>Outside of school and work, I'm on GT's Competitive Climbing Team and involved in the Trading and WebDev clubs. I enjoy the problem-solving aspects of both climbing and coding.</p>
+                <p>Outside of school and work, I'm part of Georgia Tech's <a href="https://gtbigdatabigimpact.com/" target="_blank" rel="noopener noreferrer">Big Data Big Impact AI Club</a> and <a href="https://robojackets.org/" target="_blank" rel="noopener noreferrer">RoboJackets (Robotics @ GT)</a>. I enjoy the problem-solving aspects of both languages and coding.</p>
             </div>
         </div>
     </section>
@@ -229,24 +235,19 @@
                 <h2 class="mb-xl">Get In Touch</h2>
                 <p>Open to discussing internship opportunities, project collaborations, or just talking about software development. Feel free to reach out.</p>
                 <div class="contact-icons">
-                    <a href="mailto:daniel@example.com" class="contact-icon-link" aria-label="Email">
+                    <a href="mailto:dthomson33@gatech.edu" class="contact-icon-link" aria-label="Email">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                         </svg>
                     </a>
-                    <a href="https://github.com/itsdylon" class="contact-icon-link" target="_blank" aria-label="GitHub">
+                    <a href="https://github.com/DanielThomsonSWE" class="contact-icon-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/dylons/" class="contact-icon-link" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/danielswe/" class="contact-icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
-                    </a>
-                    <a href="https://x.com/dylon" class="contact-icon-link" target="_blank" aria-label="X (Twitter)">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
                         </svg>
                     </a>
                 </div>
@@ -256,7 +257,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Daniel Thomson</p>
+            <p>&copy; 2026 Daniel Thomson</p>
         </div>
     </footer>
     <script>
@@ -329,7 +330,7 @@
         // Typing animation
         const typingText = document.getElementById('typing-text');
         const cursor = document.getElementById('cursor');
-        const words = ['Software Engineer', 'Problem Solver', 'Climber', 'Entrepreneur', 'Cat Lover'];
+        const words = ['Software Engineer', 'Problem Solver', 'Language Learner', 'Entrepreneur', 'Market Enthusiast'];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
@@ -365,6 +366,36 @@
         setTimeout(() => {
             typeEffect();
         }, 1000);
+
+        // Dark mode toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const storageKey = 'theme';
+
+        function applyTheme(theme) {
+            const isDark = theme === 'dark';
+            document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+            if (themeToggle) {
+                themeToggle.setAttribute('aria-pressed', String(isDark));
+                themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            }
+        }
+
+        function getPreferredTheme() {
+            const stored = localStorage.getItem(storageKey);
+            if (stored === 'dark' || stored === 'light') return stored;
+            return 'dark';
+        }
+
+        applyTheme(getPreferredTheme());
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+                const next = current === 'dark' ? 'light' : 'dark';
+                localStorage.setItem(storageKey, next);
+                applyTheme(next);
+            });
+        }
     </script>
 </body>
 </html>
