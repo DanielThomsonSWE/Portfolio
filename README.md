@@ -23,7 +23,7 @@ In this repository, you'll find the complete source code and deployment configur
 
 ## 📫 Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/danielswe/)
-- [Personal Website](https://github.com/DanielThomsonSWE/Portfolio)
+- [Personal Website](https://danielthomsonswe.github.io/Portfolio/)
 - [Email](DanielThomsonSWE@gmail.com)
 
 ---
