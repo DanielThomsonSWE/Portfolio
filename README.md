@@ -1,4 +1,4 @@
-# Hi there, I'm Daniel Thomson 👋
+# Hi I'm Daniel Thomson 👋
 
 I am a Software Engineer focused on backend development, platform engineering, and infrastructure automation. This repository serves as the source code for my portfolio website and a showcase of my technical background.
 
