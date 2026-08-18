@@ -7,14 +7,14 @@ I am a Software Engineer focused on backend development, platform engineering, a
   🧪 Materials Characterization & Performance Team
 - **Software Engineering Intern @ ResMed**  
   🤖 Automation Team
-- **Software Engineering Intern @ Itential, LLC**
+- **Software Engineering Intern @ Itential, LLC**  
   🎻 Orchestration Team
-- **Development Intern @ PaperStreet Web Design**
+- **Development Intern @ PaperStreet Web Design**  
 
-## 🚀 Campus Involvement & Projects
-- **Georgia Tech VIP Program**
+## 🚀 Campus Involvement & Projects  
+- **Georgia Tech VIP Program**  
   💻 Nexus AI Makerspace Research Team
-- **RoboJackets**
+- **RoboJackets**  
   🏎️ RoboRacing Team
 
 ## 💻 Explore This Repository
