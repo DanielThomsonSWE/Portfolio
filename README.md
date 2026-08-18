@@ -9,7 +9,8 @@ I am a Software Engineer focused on backend development, platform engineering, a
   🤖 Automation Team
 - **Software Engineering Intern @ Itential, LLC**  
   🎻 Orchestration Team
-- **Development Intern @ PaperStreet Web Design**  
+- **Development Intern @ PaperStreet Web Design**
+  🚀 Development Team
 
 ## 🚀 Campus Involvement & Projects  
 - **Georgia Tech VIP Program**  
