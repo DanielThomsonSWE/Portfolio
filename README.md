@@ -1,4 +1,4 @@
-Daniel Thomson Portfolio
+# Daniel Thomson Portfolio
 
 I am a Software Engineer focused on backend development, platform engineering, and infrastructure automation. This repository serves as the source code for my portfolio website and a showcase of my technical background.
 
